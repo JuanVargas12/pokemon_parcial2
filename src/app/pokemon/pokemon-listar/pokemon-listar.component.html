@@ -7,7 +7,7 @@
     <h3>Tipos:</h3>
     <ul>
       <li *ngFor="let type of pokemon.types">
-        <a [routerLink]="['/type', type.type.name]">{{ type.type.name }}</a>
+        [routerLink]="['/type', type.type.name]">{{ type.type.name }}
       </li>
     </ul>
   </div>
